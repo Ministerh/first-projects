@@ -50,18 +50,18 @@ student_grades = {}
 #'Lagos':{'cities_visited':['Ikeja', 'V.I', 'Alaba', 'Oshodi'], 'total_visits': 7}}
 
 #nesting a dictionary in a list
-
-#travel_logs = [
-#    {'state':'Ogun' ,
-#'cities_visited':['Abeokuta', 'Sango', "Ifo", 'Agbara' ], 
-#'toatal_visits':10
-#},
-#{
-#    'state':'Lagos',
-#    'cities_visited':['Ikeja', 'V.I', 'Alaba', 'Oshodi'],
-#     'total_visits': 7}
-#]
-
+import random
+travel_logs = [
+   {'state':'Ogun' ,
+    'cities_visited':['Abeokuta', 'Sango', "Ifo", 'Agbara' ], 
+    'total_visits':10
+    },
+{
+   'state':'Lagos',
+   'cities_visited':['Ikeja', 'V.I', 'Alaba', 'Oshodi'],
+    'total_visits': 7}
+]
+print(random.choice(travel_logs))
 #travel_logs.append({'state':'Abuja', "cities_visited":['madachi','masaru', 'inna'], 'total_visits': 5})
 #def add_new_log(country_visited, cities_visite, num_of_times):
 #    new_log = {}
@@ -76,29 +76,29 @@ student_grades = {}
 
 
 from auctionart import logo
-print (logo)
-print("Welcome to the secret auction program")
-def highest_bidder(bidder):
-    highest  = 0
-    winner = ""
-    for key in bids:
-        current_bid = bids[key]
-        if current_bid > highest:
-            highest = current_bid
-            winner = highest
-    print(winner)
-bids = {}
-bidding = True
-while bidding:
-    user_name  = input("what is your name?: ")
-    user_bid = int(input("What is your bid: $"))
-    bids[user_name] = user_bid
-    rebid = input("Are there any other bidders? type 'yes' or 'no'").lower()
-    if rebid == 'no':
-        bidding = False
-        highest_bidder(bids)
-    elif rebid == 'yes':
-        print('restart')
+# print (logo)
+# print("Welcome to the secret auction program")
+# def highest_bidder(bidder):
+#     highest  = 0
+#     winner = ""
+#     for key in bids:
+#         current_bid = bids[key]
+#         if current_bid > highest:
+#             highest = current_bid
+#             winner = highest
+#     print(f"The highest bid is {winner}")
+# bids = {}
+# bidding = True
+# while bidding:
+#     user_name  = input("what is your name?: ")
+#     user_bid = int(input("What is your bid: $"))
+#     bids[user_name] = user_bid
+#     rebid = input("Are there any other bidders? type 'yes' or 'no'").lower()
+#     if rebid == 'no':
+#         bidding = False
+#         highest_bidder(bids)
+#     elif rebid == 'yes':
+#         print('restart')
 
 #for n in diction:
 #        if n > highest:

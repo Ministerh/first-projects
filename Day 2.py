@@ -47,12 +47,12 @@
 #arith5 = arith2 * 12
 #print(f"you have {arith3} days, {arith4} weeks, and  {arith5} months left.")
 #print("Welcome to the tip calculator.")
-#total_bill = float(input("what was the total bill? $"))
-#percentage_tip = float(input("what percentage would you like to give? 10, 12, or 15?"))
-#number_of_people = float(input("How many people are to split the bill?"))
-#total1 = (total_bill * percentage_tip) / 100
-#total2 = (total1 + total_bill) / number_of_people
-#total3 = round(total2, 2)
-#to get exactly two fig after the decimal use the format function
-#total3 = "{:.2f}".format(total2)
-#print(f"Each person should pay: ${total3}")
+# total_bill = float(input("what was the total bill? $"))
+# percentage_tip = float(input("what percentage would you like to give? 10, 12, or 15?"))
+# number_of_people = float(input("How many people are to split the bill?"))
+# total1 = (total_bill * percentage_tip) / 100
+# total2 = (total1 + total_bill) / number_of_people
+# total3 = round(total2, 2)
+# #to get exactly two fig after the decimal use the format function
+# total3 = "{:.2f}".format(total2)
+# print(f"Each person should pay: ${total3}")

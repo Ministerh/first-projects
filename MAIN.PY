@@ -22,3 +22,5 @@
 #lst = [["ade", "ayo", "omo", "idowu"] ["akin", "umar", "alaba", "igan", "iyo"] ["ede", "edo", "imo"]]
 #print(lst[0][1])
 
+for n in range(10):
+    print(n)
