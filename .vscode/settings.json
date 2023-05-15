@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "terminal.integrated.allowChords": true,
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"]
+}
