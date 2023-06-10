@@ -37,9 +37,9 @@ import random
 #row3 = [" ", " ", " "]
 #map = [row1, row2, row3]
 #print (f"{row1}\n {row2}\n {row3}")
-#position = input("Where do you want to put the treasure? ")
-#column = int(position[0])
-#row = int(position[1])
+#position = int(input("Where do you want to put the treasure? "))
+#column = (position[0])
+#row = (position[1])
 #selected = map[row - 1] 
 #selected[column - 1] = "x"
 #map[row - 1][column - 1] = "x"

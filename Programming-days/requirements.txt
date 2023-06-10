@@ -1,0 +1,18 @@
+colorgram.py==1.2.0
+Pillow==9.5.0
+
+
+create virtual env
+-----> virtualenv NAME
+avtivate
+------> NAME\Scripts\activate.bat
+initialize git
+-------> git init 
+add files to git locally
+-------> git add .
+commit changes to git
+--------> git commit -m "MESSAGE"
+push to git 
+---------> git push
+create and checkout branch
+--------> git checkout -b NAME OF branch
