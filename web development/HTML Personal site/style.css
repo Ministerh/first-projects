@@ -1,0 +1,59 @@
+/********************* TAG SELECTOR ********************/
+/*body {
+    background-color: powderblue;
+}
+
+hr {
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: yellow;
+    width: 100px;
+}*/
+/*
+h1 {
+    color: red;
+}
+img:hover {
+    background-color: green;
+}*/
+
+/********************* CLASS SELECTOR *********************/
+/*.broccoli {
+    background-color: red;
+
+}
+
+.bread {
+    background-color: blue;
+}*/
+body{
+    margin: 0;
+}
+.red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    
+   
+}
+.yellow {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    
+}
+.green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+   
+}
+
