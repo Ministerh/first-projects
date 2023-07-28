@@ -1,0 +1,10 @@
+To create the virtual env first 
+-------> pip install virtualenv
+Then create the environment
+------> virtualenv env
+To activate the virtualenv
+------> env\scripts\activate.bat
+
+
+Other way is to use the command pallete
+ctrl + shift + p 
