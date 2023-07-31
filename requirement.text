@@ -22,3 +22,6 @@ to push to an existing repo from command line
 -----> git remote add origin https://github.com/Ministerh/My-portfolio.git
 -----> git branch -M main
 -----> git push -u origin main
+
+to create a new branch
+----> git checkout -b <branch-name>
