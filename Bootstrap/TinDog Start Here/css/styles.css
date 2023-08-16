@@ -32,12 +32,13 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .title-image{
-    width: 60%;
+    width: 30%;
     transform: rotate(22deg);
+    position: absolute;
 }
 
 /* NAV BAR */
@@ -68,7 +69,9 @@ p{
 
 /* feature section */
 #features{
-    padding: 8% 15%;
+    padding: 8% 15% ;
+    background-color: #fff;
+    position: relative;
 
 }
 
@@ -158,6 +161,9 @@ p{
 
     .title-image {
         transform: rotate(0);
+        position: static;
+        width: 60%;
+        
     }
 }
 
